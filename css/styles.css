@@ -8,52 +8,70 @@ Light gray    #d3d4d6
 Off-white     #f6f6f6
 */
 :root {
-    --Darkgray: #222222;
-    --Off-white: #f6f6f6;
-    --Dark-green: #3c8453;
-    --color-dark: var(--Darkgray);
-    --color-light: var(--Off-white);
-    --color-primary: var(--Dark-green);
+  --Darkgray: #222222;
+  --Off-white: #f6f6f6;
+  --Dark-green: #3c8453;
+  --color-dark: var(--Darkgray);
+  --color-light: var(--Off-white);
+  --color-primary: var(--Dark-green);
 }
 
 /* GLOBAL STYLES 
 ------------------------------------*/
-a {
-    color: var(--color-dark);
+html {
+  box-sizing: border-box;
 }
-.bg-dark a, .bg-primary a {
-    color: var(--color-light);
+*,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--color-dark);
+}
+.bg-dark a,
+.bg-primary a {
+  color: var(--color-light);
 }
 .bg-dark {
-    background: var(--color-dark);
-    color: var(--color-light);
+  background: var(--color-dark);
+  color: var(--color-light);
 }
 
 .bg-light {
-    background: var(--color-light);
-    color: var(--color-dark);
+  background: var(--color-light);
+  color: var(--color-dark);
 }
 
 .bg-primary {
-    background: var(--color-primary);
-    color: var(--color-light);
+  background: var(--color-primary);
+  color: var(--color-light);
 }
 
-
+.list-reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* HOME
 ------------------------------------*/
 header {
-    height: 500px; 
-background-image:
-        linear-gradient(
-            rgba(60, 132, 83, 0.5),
-            rgba(60, 132, 83, 0.5)
-        ),
-        url("../images/bg-home-office-studio.jpg");
-    background-repeat: no-repeat;
-    background-size: cover ;
-    color: var(--color-dark);
+  height: 500px;
+  background-image:
+    linear-gradient(rgba(60, 132, 83, 0.5), rgba(60, 132, 83, 0.5)),
+    url("../images/bg-home-office-studio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-dark);
 }
 
 /* RESUME
@@ -71,7 +89,5 @@ background-image:
 /* Education
 ------------------------------------*/
 
-
 /* FOOTER
 ------------------------------------*/
-
