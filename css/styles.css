@@ -7,26 +7,29 @@ Dark gray     #222222
 Light gray    #d3d4d6
 Off-white     #f6f6f6
 */
-:root{
-    --Darkgray: #222222
-    --Off-white: #f6f6f6
-    --Dark-green: #3c8453
-    --color-dark: var(--Darkgray)
-    --color-light: var(--Off-white)
-    --color-primary: var(--Dark-green)
+:root {
+    --Darkgray: #222222;
+    --Off-white: #f6f6f6;
+    --Dark-green: #3c8453;
+    --color-dark: var(--Darkgray);
+    --color-light: var(--Off-white);
+    --color-primary: var(--Dark-green);
 }
 
 /* GLOBAL STYLES 
 ------------------------------------*/
-.bg-dark{
-    background: darkgreen
+.bg-dark {
+    background: var(--color-dark);
+    color: var(--color-light);
 }
-.bg-light{
-    background:var(--color-light);
+
+.bg-light {
+    background: var(--color-light);
     color: var(--color-dark);
 }
-.bg-primary{
-    background:var(--color-primary);
+
+.bg-primary {
+    background: var(--color-primary);
     color: var(--color-light);
 }
 
