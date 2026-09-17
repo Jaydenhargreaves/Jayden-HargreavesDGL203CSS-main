@@ -61,6 +61,11 @@ a {
   margin: 0;
   padding: 0;
 }
+.content-warp {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
 
 /* HOME
 ------------------------------------*/
@@ -70,6 +75,7 @@ header {
     linear-gradient(rgba(60, 132, 83, 0.5), rgba(60, 132, 83, 0.5)),
     url("../images/bg-home-office-studio.jpg");
   background-repeat: no-repeat;
+  background-position: top right;
   background-size: cover;
   color: var(--color-dark);
 }
