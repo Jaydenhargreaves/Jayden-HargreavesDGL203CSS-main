@@ -7,74 +7,32 @@ Dark gray     #222222
 Light gray    #d3d4d6
 Off-white     #f6f6f6
 */
-:root {
-  --Darkgray: #222222;
-  --Off-white: #f6f6f6;
-  --Dark-green: #3c8453;
-  --color-dark: var(--Darkgray);
-  --color-light: var(--Off-white);
-  --color-primary: var(--Dark-green);
-}
 
 /* GLOBAL STYLES 
 ------------------------------------*/
-html {
-  box-sizing: border-box;
-}
-*,
-*::after {
-  box-sizing: inherit;
-}
-html,
 body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  padding: 0;
+  background-color: #f6f6f6;
 }
 
+/* links*/
 a {
-  color: var(--color-dark);
+  color: #3c8453;
 }
-h1,
-h2,
-h3,
-h4 {
-  margin: 0 auto;
-  padding: 0;
+a:hover {
+  color: #bcaa96;
+  text-decoration: none;
 }
-
-.bg-dark a,
-.bg-primary a {
-  color: var(--color-light);
+footer a {
+  color: #d3d4d5;
 }
-.bg-dark {
-  background: var(--color-dark);
-  color: var(--color-light);
+footer a:hover {
+  color: #3c8453;
 }
-
-.bg-light {
-  background: var(--color-light);
-  color: var(--color-dark);
+.btn {
+  background: #3c8453;
+  color: #f6f6f6;
+  text-decoration: none;
 }
-
-.bg-primary {
-  background: var(--color-primary);
-  color: var(--color-light);
-}
-
-.list-reset {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-.content-wrap {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
 /* HOME
 ------------------------------------*/
 .home {
@@ -93,13 +51,6 @@ h4 {
 
 /* Projects
 ------------------------------------*/
-.project-item {
-  border: 1px solid var(--color-primary);
-  padding: 20px;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  max-width: 800px;
-}
 
 /* Work Experience
 ------------------------------------*/
