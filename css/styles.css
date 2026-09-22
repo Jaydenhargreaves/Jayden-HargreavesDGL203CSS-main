@@ -77,15 +77,12 @@ h4 {
 
 /* HOME
 ------------------------------------*/
-header {
-  height: 500px;
-  background-image:
-    linear-gradient(rgba(60, 132, 83, 0.5), rgba(60, 132, 83, 0.5)),
-    url("../images/bg-home-office-studio.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
+.home {
+  background: url(../images/bg-home-office-studio.jpg) no-repeat;
   background-size: cover;
-  color: var(--color-dark);
+}
+.home .content-wrapper {
+  background: rgb(255 255 255 / 0.9);
 }
 
 /* RESUME
@@ -112,3 +109,7 @@ header {
 
 /* FOOTER
 ------------------------------------*/
+footer {
+  background-color: #222;
+  color: #d3d4d5;
+}
