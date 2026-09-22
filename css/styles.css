@@ -10,6 +10,15 @@ Off-white     #f6f6f6
 
 /* GLOBAL STYLES 
 ------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #f6f6f6;
 }
@@ -63,4 +72,14 @@ footer a:hover {
 footer {
   background-color: #222;
   color: #d3d4d5;
+}
+.socials {
+  list-style: none;
+  padding: 0;
+}
+.socials li {
+  display: inline-block;
+}
+.socials img {
+  width: 32px;
 }
