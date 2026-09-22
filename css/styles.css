@@ -18,9 +18,13 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+html,
+body {
+  height: 100%;
+}
 body {
   background-color: #f6f6f6;
+  margin: 0;
 }
 
 /* links*/
@@ -35,7 +39,7 @@ footer a {
   color: #d3d4d5;
 }
 footer a:hover {
-  color: #3c8453;
+  color: #bcaa96;
 }
 .btn {
   background: #3c8453;
